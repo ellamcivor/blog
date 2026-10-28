@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Mascot text="hello! welcome to my page!" />
       <Menu />
-      <Content backgroundColor="light-pink-background" />
+      <Content />
     </div>
   )
 }

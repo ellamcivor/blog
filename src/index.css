@@ -17,8 +17,10 @@
   --light-pink: #EBC7B8;
   --blue: #9AA6C9;
   --light-pink-background: #edadb9a5;
-  --dark-green-background: #667436;
-  --light-green-background: #b9b37bdd;
+  --dark-green-background: #66743684;
+  --light-green-background: #b9b37bad;
+  --yellow-background: #e5dfa5a7;
+  --beige-background: #c9a79ac0;
 }
 
 html,
@@ -46,6 +48,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 15px;
   letter-spacing: 1.5px;
+  font-weight: 100;
 }
 
 h2 {
@@ -53,6 +56,26 @@ h2 {
 }
 
 /* formatting */
+
+.left-container {
+  /* background-color: white; */
+  /* height: 300px; */
+  margin-right: 20px;
+  flex: 1;
+}
+
+.center-container {
+  /* background-color: white; */
+  /* height: 300px; */
+  margin-right: 20px;
+  flex: 2;
+}
+
+.right-container {
+  /* background-color: white; */
+  /* height: 300px; */
+  flex: 1;
+}
 
 .row {
   display: flex;
@@ -74,8 +97,20 @@ h2 {
   background-color: var(--light-green-background);
 }
 
+.dark-green-background {
+  background-color: var(--dark-green-background);
+}
+
 .light-pink-background {
   background-color: var(--light-pink-background);
+}
+
+.yellow-background {
+  background-color: var(--yellow-background);
+}
+
+.beige-background {
+  background-color: var(--beige-background);
 }
 
 
